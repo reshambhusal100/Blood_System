@@ -1,0 +1,15 @@
+.blood-request{
+    background-color: #F4F4F4;
+    border-radius: 30px;
+    margin: 0px 60px;
+  }
+  .request {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 3em;
+    
+  }

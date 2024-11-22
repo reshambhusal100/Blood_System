@@ -1,0 +1,126 @@
+
+.page{
+background-color:#F9E8C9;
+}
+
+.admin-header{
+  padding-top: 20px;
+  padding-bottom: 22px;
+  font-weight:700;
+  color:#f44336;
+}
+   .user-list-container{
+  
+    margin-left: 20%;
+  
+    
+   }
+   .request_user{
+    overflow: scroll;
+   }
+  
+ 
+   #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 10px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .user_edit_button{
+    background-color:#008CBA; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+  }
+.user_delete_button{
+  background-color: #f44336; 
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+
+
+.groupsCount{
+  margin-top:20px;
+  width: 10em;
+  border: 2px solid black;
+  text-align: center;
+ }
+ /* .user-list h2{
+  font-size: 30px;
+ } */
+
+
+ .request_header{
+  padding-top: 14px;
+  padding-bottom: 22px;
+  color: black;
+  font-size: 200;
+  width: auto;
+  margin-right: 20%;
+ }
+
+ 
+ .has_header{
+  padding-top: 14px;
+  padding-bottom: 22px;
+  color: black;
+  font-size: 200;
+  width: auto;
+  margin-right: 20%;
+ }
+
+
+.button-7 {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+ 
+}
+
+.button-7:hover{
+  background-color: #07c;
+}

@@ -1,0 +1,49 @@
+.service-heading{
+    margin-top: 4em;
+}
+.service-1{
+    margin-top: 3%;
+    padding: 0px 0%;
+
+}
+.service-1 p{
+    word-break: break;
+    padding:0px 20%;
+    margin: 0;
+    font-size: 20px;
+
+}
+.service-2{
+    border:1px solid #FFEEF4;
+    margin: 0px 8%;
+    background-color:#D8D9DA;
+    border-radius: 35px;
+    padding-bottom: 30px;
+}
+.service-3>p{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin-bottom: 3%;  
+    margin-top: 3%;    
+}
+.service-4>p{
+    font-size: 25px;
+    padding: 0 !important;
+
+}
+.service-5{
+    margin-top: 3%;
+    padding: 2px;
+}
+.service-5>p>button{
+    margin-top: 5%;
+    background: linear-gradient(to right, #5a5af4, #068FFF);
+    padding: 5%;
+    width: 10em;
+    border-radius: 30px;
+    font-size:20px;
+
+}
+.service-5>p>button:hover{
+    background-color:linear-gradient(to right,green,#ffad96); ;
+}

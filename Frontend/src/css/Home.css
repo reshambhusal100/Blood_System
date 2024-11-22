@@ -1,0 +1,27 @@
+/* .home{
+    background-image: url('../images/banner4.jpg');
+background-repeat:repeat;
+background-attachment: scroll;
+background-size: contain; 
+height:90vh;
+
+} */
+.home p{
+    font-size: 60px;
+    color: #124076;
+    position: absolute;
+    left: 43rem;
+    top:6rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.home button{
+margin-top: 20rem;
+margin-left: 50rem;
+padding: 2em;
+border-radius:5em;
+}
+.home-font{
+    font-family: "Audiowide", sans-serif;
+}

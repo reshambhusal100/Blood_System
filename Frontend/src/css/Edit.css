@@ -1,0 +1,16 @@
+.Dsubmit {
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Dsubmit:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  .c-button{
+    display: flex;
+    gap: 8px;
+  }

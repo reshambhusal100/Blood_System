@@ -1,0 +1,62 @@
+*{
+    overflow-x: hidden;
+}
+
+.logoname{
+    color: black;
+}
+.custom-navbar{
+    
+    background-color: #d29899;
+    background-image: linear-gradient(to right, rgb(209, 163, 163) , rgb(145, 240, 165));
+    height: auto; 
+    margin-top: 0;
+    top:0%;
+    padding: 10px 0; 
+    position: fixed;
+    /* z-index: 100; */
+    position:fixed;
+    z-index: 1000;
+    width: 100%;
+    top:0;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+    align-items: center;
+  
+ margin: 0;
+
+}
+
+.nav>li{
+    list-style: none;
+    font-size: 17px;
+    transition: color 0.3s; 
+    font-weight: bold;
+   
+ margin: 0 20px;
+}
+
+.nav > li:hover {
+  color: #FF8911; 
+}  
+
+#head a{
+    font-size:2rem;
+    text-decoration:none;
+    color:#D21312;
+    font-weight: bold;
+}
+#head a:hover{
+    color:#FC6736;
+}
+.nav >li>a{
+    text-decoration: none;
+}
+li{
+    cursor: pointer;
+}

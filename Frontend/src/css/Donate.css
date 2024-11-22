@@ -1,0 +1,74 @@
+.donateblood{
+  background-color: #F4F4F4;
+  border-radius: 30px;
+  margin: 0px 60px;
+}
+.donate {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 3em;
+    
+  }
+  .donate p{
+    font-size: 20px;
+  }
+  .donateus{
+    display: flex;
+    flex-direction: row;
+  }
+  .donateus-1{
+    display: flex;
+    flex-direction: row;
+  }
+  .donate-1 {
+    width: 450px; /* Fixed width for all donation boxes */
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9) ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .donate-1:hover {
+background-color :0.3s ease, transform 0.3s ease; 
+    transform: scale(1.05); 
+  }
+
+  .donate-2 img {
+   
+    border-radius: 8px;
+  }
+  
+  .blood-p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .donate-4 p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .donate-5 button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0B60B0;
+    color: #fff !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color:white;
+  }
+  
+  .donate-5 button:hover {
+    background-color: #0B60B0;
+  }
+  
+  
+  

@@ -1,0 +1,89 @@
+/* Contact.css */
+
+ .contactus {
+margin-left: 5rem;
+margin-right: 5rem;
+    padding: 50px;
+    padding-top: 1px;
+    margin-top:4rem;
+
+ }
+.contact-heading{
+    font-size: 40px;
+  }
+  .contact-1{
+    display: flex;
+    justify-content: space-between ;
+    margin:0 3rem;
+  }
+
+ .message{
+    display: flex;
+    flex-direction:column;
+ }
+ .message-location,.message-email,.message-phone{
+    display: flex;
+    margin: 8px 0;
+
+ }
+ .message-location,.message-email,.message-phone p{
+font-size: 25px;
+padding-bottom: 1px;
+
+ } 
+ 
+
+.message-1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left:10rem;
+    justify-content: space-between; 
+  }
+  
+  .message-2 {
+    margin: 10px 0;
+    padding: 7px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+ .message-1 textarea {
+    resize: vertical;
+  }
+  
+  .message-1 button {
+    background-color: #525CEB;
+    color: white;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width:25em;
+  }
+  
+  .message-1 button:hover {
+    background-color: #86B6F6;
+  }
+  
+#contact-loc{
+  margin-top: 5%;
+  margin-right: 20%;
+}
+#contact-email{
+  margin-top: 4% !important;
+}
+#contact-no{
+  margin-top: 4% !important;
+}
+#contactus{
+  background-color: #F6F6F6;
+  margin: 0px 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important;
+}
